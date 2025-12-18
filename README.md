@@ -1,11 +1,6 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DO NOT EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-- [Jwt.Net, a JWT (JSON Web Token) implementation for .NET](#jwtnet-a-jwt-json-web-token-implementation-for-net)
-- [Sponsor](#sponsor)
-- [Avaliable NuGet packages](#avaliable-nuget-packages)
+- [Jwt.Net - Unity, a JWT (JSON Web Token) implementation for .NET - Unity game engine](#jwtnetunity-a-jwt-json-web-token-implementation-for-net-unity-game-engine)
 - [Supported .NET versions:](#supported-net-versions)
-- [Jwt.NET](#jwtnet)
+- [Jwt.NET - Unity](#jwtnetunity)
   - [Creating (encoding) token](#creating-encoding-token)
     - [Or using the fluent builder API](#or-using-the-fluent-builder-api)
   - [Parsing (decoding) and verifying token](#parsing-decoding-and-verifying-token)
@@ -18,51 +13,18 @@
     - [Or using the fluent builder API](#or-using-the-fluent-builder-api-4)
   - [Custom JSON serializer](#custom-json-serializer)
   - [Custom JSON serialization settings with the default JsonNetSerializer](#custom-json-serialization-settings-with-the-default-jsonnetserializer)
-- [Jwt.Net ASP.NET Core](#jwtnet-aspnet-core)
-  - [Register authentication handler to validate JWT](#register-authentication-handler-to-validate-jwt)
-  - [Custom factories to produce Identity or AuthenticationTicket](#custom-factories-to-produce-identity-or-authenticationticket)
 - [License](#license)
 
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-[![Build status](https://abatishchev.visualstudio.com/OpenSource/_apis/build/status/Jwt.Net-CI)](https://abatishchev.visualstudio.com/OpenSource/_build/latest?definitionId=9)
-[![Release status](https://abatishchev.vsrm.visualstudio.com/_apis/public/Release/badge/b7fc2610-91d5-4968-814c-97a9d76b03c4/2/2)](https://abatishchev.visualstudio.com/OpenSource/_release?_a=releases&view=mine&definitionId=2)
-
-## Jwt.Net, a JWT (JSON Web Token) implementation for .NET
+## Jwt.Net - Unity, a JWT (JSON Web Token) implementation for .NET - Unity game engine
 
 This library supports generating and decoding [JSON Web Tokens](https://tools.ietf.org/html/rfc7519).
 
-## Sponsor
-
-| | |
-|-|-|
-| [<img alt="Auth0 logo" src="https://cdn.auth0.com/blog/github-sponsorships/brand-evolution-logo-Auth0-horizontal-Indigo.png" height="91">](https://a0.to/try-auth0) | If you want to quickly implement a secure authentication to your JWT project, [create an Auth0 account](https://a0.to/try-auth0); it's Free! |
-
-## Avaliable NuGet packages
-
-1.  Jwt.Net
-
-[![NuGet](https://img.shields.io/nuget/v/JWT.svg)](https://www.nuget.org/packages/JWT)
-[![NuGet Pre](https://img.shields.io/nuget/vpre/JWT.svg)](https://www.nuget.org/packages/JWT)
-
-2. Jwt.Net for Microsoft Dependency Injection container
-
-[![NuGet](https://img.shields.io/nuget/v/JWT.Extensions.DependencyInjection.svg)](https://www.nuget.org/packages/JWT.Extensions.DependencyInjection)
-[![NuGet Pre](https://img.shields.io/nuget/vpre/JWT.Extensions.DependencyInjection.svg)](https://www.nuget.org/packages/JWT.Extensions.DependencyInjection)
-
-3. Jwt.Net for ASP.NET Core
-
-[![NuGet](https://img.shields.io/nuget/v/JWT.Extensions.AspNetCore.svg)](https://www.nuget.org/packages/JWT.Extensions.AspNetCore)
-[![NuGet Pre](https://img.shields.io/nuget/vpre/JWT.Extensions.AspNetCore.svg)](https://www.nuget.org/packages/JWT.Extensions.AspNetCore)
-
 ## Supported .NET versions:
 
-- .NET Framework 3.5
-- .NET Framework 4.0 - 4.8
+- .NET Framework 4.6 - 4.8
 - .NET Standard 1.3, 2.0
-- .NET 6.0
 
-## Jwt.NET
+## Jwt.NET - Unity
 
 ### Creating (encoding) token
 
@@ -340,9 +302,4 @@ services.AddSingleton<ITicketFactory, CustomTicketFactory>();
 
 The following projects and their resulting packages are licensed under Public Domain, see the [LICENSE#Public-Domain](LICENSE.md#Public-Domain) file.
 
-- JWT 
-
-The following projects and their resulting packages are licensed under the MIT License, see the [LICENSE#MIT](LICENSE.md#MIT) file.
-
-- JWT.Extensions.AspNetCore
-- JWT.Extensions.DependencyInjection
+- JWT

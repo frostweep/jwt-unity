@@ -1,0 +1,22 @@
+{
+    "name": "com.frostweepgames.jwt-unity",
+    "version": "1.0.0",
+    "displayName": "Jwt.Net - Unity",
+    "description": "Jwt.Net - Unity, a JWT (JSON Web Token) implementation for .NET in Unity game engine",
+    "unity": "6000.0",
+    "keywords": [
+        "frostweep",
+        "games",
+        "frostweepgames",
+        "jwt",
+        "json web token",
+        "token",
+        "json",
+        "web"
+    ],
+    "author": {
+        "name": "FrostweepGames",
+        "email": "assets@frostweepgames.com",
+        "url": "https://frostweepgames.com"
+    }
+}
